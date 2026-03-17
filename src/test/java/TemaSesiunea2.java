@@ -1,8 +1,13 @@
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
 
 import java.time.Duration;
 
@@ -18,7 +23,7 @@ public class TemaSesiunea2 {
     @AfterMethod
     public void tearDown()
     {   driver.quit();}
- /*   @Test //loginsucces
+    @Test //loginsucces
     public void testLoginCuSucces(){
         driver.get("https://the-internet.herokuapp.com/login");
         driver.findElement(By.id("username")).sendKeys("tomsmith");
@@ -37,8 +42,8 @@ public class TemaSesiunea2 {
         WebElement mesaj = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("flash")));
         Assert.assertFalse(driver.getCurrentUrl().contains("secure"));
         Assert.assertTrue(mesaj.getText().contains("invalid"));
-        System.out.println("Testul a trecut, credentialele sunt incorecte");}*/
-   /* @Test //checkboxes
+        System.out.println("Testul a trecut, credentialele sunt incorecte");}
+    @Test //checkboxes
     public void testCheckboxes(){
         driver.get("https://the-internet.herokuapp.com/checkboxes");
         WebElement checkbox1 = driver.findElement(By.xpath("//input[@type='checkbox'][1]"));
@@ -48,7 +53,7 @@ public class TemaSesiunea2 {
         WebElement checkbox2 = driver.findElement(By.xpath("//input[@type='checkbox'][2]"));
         Assert.assertTrue(checkbox2.isSelected());
         checkbox2.click();
-        Assert.assertFalse(checkbox2.isSelected());}*/
+        Assert.assertFalse(checkbox2.isSelected());}
 
 
 
