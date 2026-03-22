@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Teste">
+    <test name="External_Sites_Tests">
+        <classes>
+            <class name="TemaSesiunea4" />
+            <class name="ComplexFormTest" />
+        </classes>
+    </test>
+    <test name="Hapiflix_Application_Tests">
+        <classes>
+            <class name="UserJourneyTests" />
+        </classes>
+    </test>
+</suite>
+
