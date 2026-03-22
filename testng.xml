@@ -2,13 +2,13 @@
 <suite name="Teste">
     <test name="External_Sites_Tests">
         <classes>
-            <class name="TemaSesiunea4" />
-            <class name="ComplexFormTest" />
+            <class name="tests.TemaSesiunea4" />
+            <class name="tests.ComplexFormTest" />
         </classes>
     </test>
     <test name="Hapiflix_Application_Tests">
         <classes>
-            <class name="UserJourneyTests" />
+            <class name="tests.UserJourneyTests" />
         </classes>
     </test>
 </suite>
