@@ -3,7 +3,7 @@
 
 Proiect de automatizare teste QA folosind **Java**, **Selenium WebDriver**, **TestNG** si **Page Object Model (POM)**.
 
-Creat in cadrul cursului de QA Engineering - Skilllab.
+Creat in cadrul cursului de QA Engineering - SkillBrain.
 
 ---
 
