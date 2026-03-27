@@ -21,7 +21,7 @@ public class ComplexFormTest extends BaseTest{
         driver.findElement(By.id("subjectsInput")).sendKeys(Keys.ENTER);
         driver.findElement(By.cssSelector("label[for='hobbies-checkbox-1']")).click();
         driver.findElement(By.id("currentAddress")).sendKeys("Bucharest");
-        driver.findElement(By.id("uploadPicture")).sendKeys("/Users/cosmin/Desktop/pozasite.png");
+       /* driver.findElement(By.id("uploadPicture")).sendKeys("/Users/cosmin/Desktop/pozasite.png");*/
         driver.findElement(By.id("react-select-3-input")).sendKeys("Utta");
         driver.findElement(By.id("react-select-3-input")).sendKeys(Keys.ENTER);
         driver.findElement(By.id("react-select-4-input")).sendKeys("Agra");
